@@ -8,13 +8,10 @@ import edu.eci.arsw.blueprints.persistence.BlueprintPersistenceException;
 import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Repository;
-import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.HashSet;
 import java.util.List;
-import java.util.Optional;
 import java.util.Set;
-import java.util.stream.Collectors;
 
 @Repository
 @Profile("postgresBD")

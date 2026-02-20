@@ -11,9 +11,9 @@
   </parent>
 
   <groupId>edu.eci.arsw</groupId>
-  <artifactId>SpringBoot_REST_API_Blueprints</artifactId>
+  <artifactId>springboot_rest_api_blueprints</artifactId>
   <version>1.0.0</version>
-  <name>SpringBoot_REST_API_Blueprints</name>
+  <name>springboot_rest_api_blueprints</name>
   <description>ARSW Lab #4 Blueprints — Java 21 / Spring Boot 3.3.x, 1:1 endpoints behavior</description>
 
   <properties>
@@ -53,6 +53,10 @@
       <scope>runtime</scope>
     </dependency>
 
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-actuator</artifactId>
+    </dependency>
 
     <dependency>
       <groupId>org.projectlombok</groupId>
