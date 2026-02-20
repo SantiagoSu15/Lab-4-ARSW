@@ -4,7 +4,6 @@ Implementación de una REST API con Java 21 y Spring Boot 3.3.x para el manejo d
 
 ## Getting Started
 
-Estas instrucciones te permitirán obtener una copia del proyecto y ejecutarlo en tu máquina local para desarrollo y pruebas.
 
 ### Prerequisites
 
