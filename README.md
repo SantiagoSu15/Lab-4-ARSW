@@ -93,12 +93,7 @@ mvn test
 ## Deployment
 
 Para desplegar con imagen de contenedor:
-```bash
-mvn spring-boot:build-image
-docker run -p 8080:8080 <nombre-imagen>
-```
-
-O usando Docker Compose directamente (ver sección Installing).
+Usando Docker Compose directamente (ver sección Installing).
 
 ## Estructura del Proyecto
 ```
@@ -213,13 +208,14 @@ y en `application.properties`
     management.endpoint.health.show-details=always
 ```
 
-### 7. Imagen de Docker con spring-boot:build-image
 
 
 
 
 prueba de endpoint:
 ![Actua](/docs/img.png)
+
+### 7. Imagen de Docker con spring-boot:build-image
 
 
 ## Built With
