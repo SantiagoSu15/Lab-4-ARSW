@@ -160,13 +160,16 @@ Prueba Base con docker:
 ### 3. Buenas prácticas de API REST
 
 ## ErrorHandle 
-Se añade un error handler para tener mayor claridad a las expeciones que se lanzan.
+1. Se añade un error handler para tener mayor claridad a las expeciones que se lanzan.
 
 ![error](/docs/img_2.png)
-
-
+2. Se implementó una configuración independiente para el entorno de pruebas
+3. Se implementaron endpoints siguiendo las convenciones REST, utilizando substantivos en plural para recursos y estructura jerárquica
+4. Cada endpoint retorna códigos HTTP apropiados según el resultado de la operación
+5. Se creó la clase ApiResponse como contenedor uniforme para todas las respuestas
 
 ### 4. OpenAPI / Swagger
+<img width="1814" height="434" alt="image" src="https://github.com/user-attachments/assets/5fd57f03-b1c1-4bcc-b2ca-8cee1bd69256" />
 
 
 ### 5. Filtros de Blueprints
@@ -227,5 +230,5 @@ prueba de endpoint:
 
 ## Authors
 
-* **Juan Felipe Range Y Santiago Suarez** 
+* **Juan Felipe Rangel Y Santiago Suarez** 
 
