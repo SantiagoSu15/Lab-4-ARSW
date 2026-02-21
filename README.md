@@ -163,9 +163,13 @@ Prueba Base con docker:
 1. Se añade un error handler para tener mayor claridad a las expeciones que se lanzan.
 
 ![error](/docs/img_2.png)
+
 2. Se implementó una configuración independiente para el entorno de pruebas
+
 3. Se implementaron endpoints siguiendo las convenciones REST, utilizando substantivos en plural para recursos y estructura jerárquica
+   
 4. Cada endpoint retorna códigos HTTP apropiados según el resultado de la operación
+   
 5. Se creó la clase ApiResponse como contenedor uniforme para todas las respuestas
 
 ### 4. OpenAPI / Swagger
